@@ -1,3 +1,6 @@
+# ignore gitignore file
+.gitignore
+
 # Игнорировать все файлы .xlsx
 *.xlsx
 
@@ -11,3 +14,19 @@
 
 # Игнорировать папку env
 env/
+
+# Игнорируем рабочие пространства
+sales-bot.code-workspace
+
+# Игнорируем файлы macOS
+.DS_Store
+
+# Игнорируем папку images
+images/
+img/
+test/
+
+# Другие игнорируемые файлы и директории
+*.pyc
+__pycache__/
+*.log
