@@ -1,0 +1,7 @@
+<div>
+    <h1>Страница заказа {{ orderId }}</h1>
+    <p>{{ order.order_number }}</p>
+    <p>{{ order.client_name }}</p>
+    <p>{{ order.order_date }}</p>
+    <img [src]="order.image_path" alt="Order Image" style="width: 100px; height: 100px;">
+</div>

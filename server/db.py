@@ -9,10 +9,20 @@ from serialize import ReplyGetOrder, CreateOrder
     
 def db_get_order(order_number: int) -> ReplyGetOrder:
     with sqlite3.connect(DATABASE_NAME) as conn:
+        conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
         cursor.execute('SELECT * FROM orders WHERE order_number = ?', (order_number,))
         item = cursor.fetchone()
-        return item
+        return dict(item)
+    
+
+def db_get_orders() -> list[dict]:
+    with sqlite3.connect(DATABASE_NAME) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+        cursor.execute('SELECT * FROM orders ORDER BY order_date DESC LIMIT 10')
+        items = cursor.fetchall()
+        return [dict(item) for item in items]
 
 
 def db_create_order(data: CreateOrder):

@@ -1,8 +1,10 @@
 from fastapi import APIRouter, HTTPException, File, UploadFile, Form
 from pydantic import ValidationError
-from db import db_create_order, db_get_order, db_put_image_to_order 
+from db import db_create_order, db_get_order, db_put_image_to_order, db_get_orders
 from serialize import CreateOrder, GetOrder
 import os
+from pprint import pprint
+from typing import Dict, List
 
 from methods import save_image
 
@@ -10,15 +12,23 @@ router = APIRouter()
 
 
 
-@router.get("/orders/{order_number}")
-async def api_get_order(order_number: int):
+@router.get("/api/order/{order_number}")
+async def api_get_order(order_number: int) -> Dict:
     item = db_get_order(order_number)
     if item is None:
         raise HTTPException(status_code=404, detail="Item not found")
     return item
 
 
-@router.post("/upload-form/")
+@router.get("/api/orders")
+async def api_get_orders() -> List[Dict]:
+    item = db_get_orders()
+    if item is None:
+        raise HTTPException(status_code=404, detail="Item not found")
+    return item
+
+
+@router.post("/api/upload-form/")
 async def api_create_order(
     image: UploadFile = File(...),
     to_russia: str = Form(...),  # Поле для текстового описания

@@ -30,3 +30,31 @@ test/
 *.pyc
 __pycache__/
 *.log
+
+# Angular build artifacts
+/dist
+/tmp
+/out-tsc
+
+# Node modules
+/node_modules
+
+# IDE and editor files
+/.idea
+/.vscode
+/.DS_Store
+
+# Environment files
+/src/environments/*.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled output
+*.js
+*.map
+
+# Other files
+*.tgz

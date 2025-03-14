@@ -1,0 +1,9 @@
+<div>
+    <h1>Список заказов</h1>
+    <ul style="display: flex; flex-direction: column; gap: 10px;">
+        <li *ngFor="let order of orders">
+            <a >{{ order.order_number }}</a> 
+            <img [src]="order.image_path" alt="Order Image" style="width: 100px; height: 100px;">
+        </li>
+    </ul>
+</div>
