@@ -5,12 +5,12 @@
 *.xlsx
 
 # Игнорировать все изображения
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
 
 # Игнорировать папку env
 env/
@@ -22,7 +22,8 @@ sales-bot.code-workspace
 .DS_Store
 
 # Игнорируем папку images
-images/
+imagescopy/
+images_t/
 img/
 test/
 
@@ -32,7 +33,6 @@ __pycache__/
 *.log
 
 # Angular build artifacts
-/dist
 /tmp
 /out-tsc
 
