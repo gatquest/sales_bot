@@ -1,1 +1,1 @@
-DATABASE_NAME = '/data/your_database.db'
+DATABASE_NAME = '../data/your_database.db'
