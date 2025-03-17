@@ -33,8 +33,8 @@ __pycache__/
 *.log
 
 # Angular build artifacts
-/tmp
-/out-tsc
+# /tmp
+# /out-tsc
 
 # Node modules
 /node_modules
@@ -53,8 +53,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Compiled output
-*.js
-*.map
+# *.js
+# *.map
 
 # Other files
 *.tgz
