@@ -1,40 +1,37 @@
-FROM python:3.9
+FROM python:3.9-slim
 
-# Установка Nginx
-RUN apt-get update && apt-get install -y nginx
-
-# Настройка директории для статических файлов
-RUN mkdir -p /var/www/html
-RUN mkdir -p /var/www/images
-RUN chown -R www-data:www-data /var/www/html
-RUN chown -R www-data:www-data /var/www/images
-RUN chmod -R 755 /var/www/html
-RUN chmod -R 755 /var/www/images
+# Установка Nginx и настройка директорий одним слоем
+RUN apt-get update && \
+    apt-get install -y nginx && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
+    mkdir -p /var/www/html /var/www/images && \
+    chown -R www-data:www-data /var/www/html /var/www/images && \
+    chmod -R 755 /var/www/html /var/www/images && \
+    rm -f /etc/nginx/sites-enabled/default
 
 # Настройка Nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-RUN rm -f /etc/nginx/sites-enabled/default
 
-# Копирование готового билда Angular
-WORKDIR /app
-COPY client/dist/client/ /var/www/html/
-RUN chown -R www-data:www-data /var/www/html
-RUN chmod -R 755 /var/www/html
-RUN ls -la /var/www/html/
-
-# Копирование папки с изображениями
-COPY server/images/ /var/www/images/
-RUN chown -R www-data:www-data /var/www/images
-RUN chmod -R 755 /var/www/images
-RUN ls -la /var/www/images/
-
-# Настройка FastAPI
+# Настройка FastAPI - сначала копируем только requirements.txt
 WORKDIR /app/server
 COPY server/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Копирование готового билда Angular
+WORKDIR /app
+COPY client/dist/client/ /var/www/html/
+
+# Копирование папки с изображениями
+COPY server/images/ /var/www/images/
+
+# Копирование серверного кода
+WORKDIR /app/server
 COPY server/ .
-RUN ls -la
+
+# Установка правильных прав доступа одним слоем
+RUN chown -R www-data:www-data /var/www/html /var/www/images && \
+    chmod -R 755 /var/www/html /var/www/images
 
 # Скрипт для запуска обоих сервисов
 COPY start.sh /start.sh

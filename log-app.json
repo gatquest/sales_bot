@@ -1,0 +1,202 @@
+[
+    {
+        "content": "nginx is running.",
+        "timestamp": "2025-03-17T12:58:23.241"
+    },
+    {
+        "content": "Nginx error log:",
+        "timestamp": "2025-03-17T12:58:23.242"
+    },
+    {
+        "content": "2025/03/17 12:58:23 [debug] 27#27: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T12:58:23.243"
+    },
+    {
+        "content": "2025/03/17 12:58:23 [debug] 26#26: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T12:58:23.243"
+    },
+    {
+        "content": "2025/03/17 12:58:23 [debug] 24#24: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T12:58:23.243"
+    },
+    {
+        "content": "2025/03/17 12:58:23 [debug] 25#25: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T12:58:23.243"
+    },
+    {
+        "content": "Starting FastAPI server...",
+        "timestamp": "2025-03-17T12:58:23.245"
+    },
+    {
+        "content": "INFO:     Started server process [38]",
+        "timestamp": "2025-03-17T12:58:32.727"
+    },
+    {
+        "content": "INFO:     Waiting for application startup.",
+        "timestamp": "2025-03-17T12:58:32.727"
+    },
+    {
+        "content": "INFO:     Application startup complete.",
+        "timestamp": "2025-03-17T12:58:32.728"
+    },
+    {
+        "content": "INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)",
+        "timestamp": "2025-03-17T12:58:32.728"
+    },
+    {
+        "content": "\u001b[91mКонтейнер перешел в статус FAILED\u001b[0m",
+        "timestamp": "2025-03-17T12:58:49.392"
+    },
+    {
+        "content": "\u001b[94mКонтейнер перешел в статус SUCCEEDED\u001b[0m",
+        "timestamp": "2025-03-17T12:58:50.041"
+    },
+    {
+        "content": "\u001b[90mКонтейнер перешел в статус DELETED\u001b[0m",
+        "timestamp": "2025-03-17T12:58:50.052"
+    },
+    {
+        "content": "\u001b[33mКонтейнер перешел в статус PENDING\u001b[0m",
+        "timestamp": "2025-03-17T13:02:05.161"
+    },
+    {
+        "content": "Checking frontend files:",
+        "timestamp": "2025-03-17T13:02:07.671"
+    },
+    {
+        "content": "total 276",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "drwxr-xr-x 2 www-data www-data   4096 Mar 17 12:57 .",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "drwxr-xr-x 4 root     root       4096 Mar 17 12:57 ..",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data  12290 Mar 17 12:57 3rdpartylicenses.txt",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data    948 Mar 17 12:57 favicon.ico",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data    542 Mar 17 12:57 index.html",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data    615 Mar 17 12:57 index.nginx-debian.html",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data 203050 Mar 17 12:57 main.98150d97b8b695ca.js",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data  33876 Mar 17 12:57 polyfills.4709fd955acb2242.js",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data    890 Mar 17 12:57 runtime.7ae29a296d479790.js",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "-rwxr-xr-x 1 www-data www-data      0 Mar 17 12:57 styles.ef46db3751d8e999.css",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "Starting Nginx...",
+        "timestamp": "2025-03-17T13:02:07.703"
+    },
+    {
+        "content": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok",
+        "timestamp": "2025-03-17T13:02:07.923"
+    },
+    {
+        "content": "nginx: configuration file /etc/nginx/nginx.conf test is successful",
+        "timestamp": "2025-03-17T13:02:07.923"
+    },
+    {
+        "content": "Starting nginx: nginx.",
+        "timestamp": "2025-03-17T13:02:08.074"
+    },
+    {
+        "content": "nginx is running.",
+        "timestamp": "2025-03-17T13:02:08.085"
+    },
+    {
+        "content": "Nginx error log:",
+        "timestamp": "2025-03-17T13:02:08.086"
+    },
+    {
+        "content": "2025/03/17 13:02:08 [debug] 23#23: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T13:02:08.108"
+    },
+    {
+        "content": "2025/03/17 13:02:08 [debug] 26#26: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T13:02:08.108"
+    },
+    {
+        "content": "2025/03/17 13:02:08 [debug] 25#25: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T13:02:08.108"
+    },
+    {
+        "content": "2025/03/17 13:02:08 [debug] 24#24: epoll add event: fd:5 op:1 ev:10000001",
+        "timestamp": "2025-03-17T13:02:08.108"
+    },
+    {
+        "content": "Starting FastAPI server...",
+        "timestamp": "2025-03-17T13:02:08.108"
+    },
+    {
+        "content": "\u001b[36mКонтейнер перешел в статус RUNNING\u001b[0m",
+        "timestamp": "2025-03-17T13:02:08.558"
+    },
+    {
+        "content": "INFO:     Started server process [39]",
+        "timestamp": "2025-03-17T13:02:09.903"
+    },
+    {
+        "content": "INFO:     Waiting for application startup.",
+        "timestamp": "2025-03-17T13:02:09.903"
+    },
+    {
+        "content": "INFO:     Application startup complete.",
+        "timestamp": "2025-03-17T13:02:09.903"
+    },
+    {
+        "content": "INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)",
+        "timestamp": "2025-03-17T13:02:09.903"
+    },
+    {
+        "content": "\u001b[91mКонтейнер перешел в статус FAILED\u001b[0m",
+        "timestamp": "2025-03-17T13:02:36.257"
+    },
+    {
+        "content": "\u001b[94mКонтейнер перешел в статус SUCCEEDED\u001b[0m",
+        "timestamp": "2025-03-17T13:02:36.685"
+    },
+    {
+        "content": "\u001b[90mКонтейнер перешел в статус DELETED\u001b[0m",
+        "timestamp": "2025-03-17T13:02:36.733"
+    },
+    {
+        "content": "\u001b[33mКонтейнер перешел в статус PENDING\u001b[0m",
+        "timestamp": "2025-03-17T13:07:06.184"
+    },
+    {
+        "content": "\u001b[36mКонтейнер перешел в статус RUNNING\u001b[0m",
+        "timestamp": "2025-03-17T13:07:10.784"
+    },
+    {
+        "content": "\u001b[91mКонтейнер перешел в статус FAILED\u001b[0m",
+        "timestamp": "2025-03-17T13:07:37.713"
+    },
+    {
+        "content": "\u001b[94mКонтейнер перешел в статус SUCCEEDED\u001b[0m",
+        "timestamp": "2025-03-17T13:07:38.361"
+    }
+]

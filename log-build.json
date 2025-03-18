@@ -1,0 +1,240 @@
+[
+    {
+        "content": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 23.9 MB/s eta 0:00:00",
+        "timestamp": "2025-03-17T12:58:02.685"
+    },
+    {
+        "content": "Collecting python-multipart==0.0.20",
+        "timestamp": "2025-03-17T12:58:02.747"
+    },
+    {
+        "content": "Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)",
+        "timestamp": "2025-03-17T12:58:02.79"
+    },
+    {
+        "content": "Collecting sniffio==1.3.1",
+        "timestamp": "2025-03-17T12:58:02.845"
+    },
+    {
+        "content": "Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)",
+        "timestamp": "2025-03-17T12:58:02.891"
+    },
+    {
+        "content": "Collecting starlette==0.46.1",
+        "timestamp": "2025-03-17T12:58:03.004"
+    },
+    {
+        "content": "Downloading starlette-0.46.1-py3-none-any.whl (71 kB)",
+        "timestamp": "2025-03-17T12:58:03.05"
+    },
+    {
+        "content": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.0/72.0 kB 267.9 MB/s eta 0:00:00",
+        "timestamp": "2025-03-17T12:58:03.053"
+    },
+    {
+        "content": "Collecting typing_extensions==4.12.2",
+        "timestamp": "2025-03-17T12:58:03.119"
+    },
+    {
+        "content": "Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)",
+        "timestamp": "2025-03-17T12:58:03.163"
+    },
+    {
+        "content": "Collecting uvicorn==0.34.0",
+        "timestamp": "2025-03-17T12:58:03.249"
+    },
+    {
+        "content": "Downloading uvicorn-0.34.0-py3-none-any.whl (62 kB)",
+        "timestamp": "2025-03-17T12:58:03.293"
+    },
+    {
+        "content": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.3/62.3 kB 239.2 MB/s eta 0:00:00",
+        "timestamp": "2025-03-17T12:58:03.301"
+    },
+    {
+        "content": "Installing collected packages: typing_extensions, sniffio, python-multipart, idna, h11, exceptiongroup, click, annotated-types, uvicorn, pydantic_core, anyio, starlette, pydantic, fastapi",
+        "timestamp": "2025-03-17T12:58:03.655"
+    },
+    {
+        "content": "Successfully installed annotated-types-0.7.0 anyio-4.8.0 click-8.1.8 exceptiongroup-1.2.2 fastapi-0.115.11 h11-0.14.0 idna-3.10 pydantic-2.10.6 pydantic_core-2.27.2 python-multipart-0.0.20 sniffio-1.3.1 starlette-0.46.1 typing_extensions-4.12.2 uvicorn-0.34.0",
+        "timestamp": "2025-03-17T12:58:04.844"
+    },
+    {
+        "content": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv",
+        "timestamp": "2025-03-17T12:58:04.844"
+    },
+    {
+        "content": "",
+        "timestamp": "2025-03-17T12:58:05.018"
+    },
+    {
+        "content": "[notice] A new release of pip is available: 23.0.1 -> 25.0.1",
+        "timestamp": "2025-03-17T12:58:05.018"
+    },
+    {
+        "content": "[notice] To update, run: pip install --upgrade pip",
+        "timestamp": "2025-03-17T12:58:05.018"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0069] COPY server/ .                               ",
+        "timestamp": "2025-03-17T12:58:05.658"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0069] RUN ls -la                                   ",
+        "timestamp": "2025-03-17T12:58:05.663"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0069] Cmd: /bin/sh                                 ",
+        "timestamp": "2025-03-17T12:58:06.132"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0069] Args: [-c ls -la]                            ",
+        "timestamp": "2025-03-17T12:58:06.132"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0069] Running: [/bin/sh -c ls -la]                 ",
+        "timestamp": "2025-03-17T12:58:06.132"
+    },
+    {
+        "content": "total 40",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "drwxr-xr-x 3 1337 1337 4096 Mar 17 12:58 .",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "drwxr-xr-x 3 root root 4096 Mar 17 12:57 ..",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337 1971 Mar 17 12:58 api.py",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337   40 Mar 17 12:58 config.py",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337 1936 Mar 17 12:58 db.py",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "drwxr-xr-x 2 1337 1337 4096 Mar 17 12:58 images",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337  452 Mar 17 12:58 main.py",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337  313 Mar 17 12:58 methods.py",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337  251 Mar 17 12:58 requirements.txt",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "-rw-r--r-- 1 1337 1337 1046 Mar 17 12:58 serialize.py",
+        "timestamp": "2025-03-17T12:58:06.134"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0070] COPY start.sh /start.sh                      ",
+        "timestamp": "2025-03-17T12:58:06.718"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0070] RUN chmod +x /start.sh                       ",
+        "timestamp": "2025-03-17T12:58:06.719"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0070] Cmd: /bin/sh                                 ",
+        "timestamp": "2025-03-17T12:58:07.168"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0070] Args: [-c chmod +x /start.sh]                ",
+        "timestamp": "2025-03-17T12:58:07.168"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0070] Running: [/bin/sh -c chmod +x /start.sh]     ",
+        "timestamp": "2025-03-17T12:58:07.168"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0071] EXPOSE 80 8000                               ",
+        "timestamp": "2025-03-17T12:58:07.686"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0071] Cmd: EXPOSE                                  ",
+        "timestamp": "2025-03-17T12:58:07.686"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0071] Adding exposed port: 80/tcp                  ",
+        "timestamp": "2025-03-17T12:58:07.686"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0071] Adding exposed port: 8000/tcp                ",
+        "timestamp": "2025-03-17T12:58:07.686"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0071] CMD [\"/start.sh\"]                            ",
+        "timestamp": "2025-03-17T12:58:07.686"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0071] Taking snapshot of full filesystem...        ",
+        "timestamp": "2025-03-17T12:58:07.686"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0072] Pushing image to cr.yandex/crp2gf3gm8rv83kfkvet/amvera-gatquest-sales-bot ",
+        "timestamp": "2025-03-17T12:58:09.289"
+    },
+    {
+        "content": "\u001b[36mINFO\u001b[0m[0075] Pushed cr.yandex/crp2gf3gm8rv83kfkvet/amvera-gatquest-sales-bot@sha256:84d6712fae636b5a93ff985e9b0156023d3beb47ecda86319c711aa1f33e5495 ",
+        "timestamp": "2025-03-17T12:58:12.135"
+    },
+    {
+        "content": "\u001b[94mКонтейнер перешел в статус SUCCEEDED\u001b[0m",
+        "timestamp": "2025-03-17T12:58:15.279"
+    },
+    {
+        "content": "\u001b[90mКонтейнер перешел в статус DELETED\u001b[0m",
+        "timestamp": "2025-03-17T12:58:16.426"
+    }
+]
+
+
+
+17/03/25 16:02:08
+Контейнер перешел в статус RUNNING
+
+17/03/25 16:02:09
+INFO: Started server process [39]
+
+17/03/25 16:02:09
+INFO: Waiting for application startup.
+
+17/03/25 16:02:09
+INFO: Application startup complete.
+
+17/03/25 16:02:09
+INFO: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+
+17/03/25 16:02:36
+Контейнер перешел в статус FAILED
+
+17/03/25 16:02:36
+Контейнер перешел в статус SUCCEEDED
+
+17/03/25 16:02:36
+Контейнер перешел в статус DELETED
+
+17/03/25 16:07:06
+Контейнер перешел в статус PENDING
+
+17/03/25 16:07:10
+Контейнер перешел в статус RUNNING
+
+17/03/25 16:07:37
+Контейнер перешел в статус FAILED
+
+17/03/25 16:07:38
+Контейнер перешел в статус SUCCEEDED
